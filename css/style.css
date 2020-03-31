@@ -1,0 +1,525 @@
+/* Custom Css */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #F8FAFC;
+}
+/*
+
+/*
+===========================================
+                Generic Part
+===========================================
+*/
+/* Generic Title */
+.generic-title-underline{
+    width: 50px;
+    height: 2.2px;
+    background-color: #333;
+}
+/* Generic Link */
+a:hover{
+    text-decoration: none;
+}
+
+/*===========================================
+                Header
+===========================================
+*/
+.header .container-fluid{
+    overflow: hidden;
+}
+.top-header-color{
+    background-color: #491C5E;
+}
+.menu-header-color{
+    background-color: #6C2A8C;
+}
+.left-side-topbar{
+    float: left;
+    line-height: 40px;
+    color: #fff;
+}
+.right-side-topbar{
+    float: right;
+    display: flex;
+}
+.right-side-topbar ul{
+    display: flex;
+    list-style-type:none;
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+.right-side-topbar ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right-side-topbar .custom-btn{
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.right-side-topbar .login:hover{
+    background-color: #227DC7;
+    color: #fff;
+}
+.right-side-topbar-2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.right-side-topbar .login{
+    border-color: #227DC7;
+}
+.right-side-topbar .sign-up{
+    background-color: #227DC7;
+    color: #fff;
+    text-transform: capitalize;
+}
+.right-side-topbar .sign-up:hover{
+    opacity: 0.8;
+}
+.right-side-topbar i{
+    padding-right: 10px;
+}
+.right-side-topbar a,
+.right-side-topbar a:hover{
+    color: #fff;
+}
+menu{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    text-transform: uppercase;
+    list-style: none;
+    padding-top: 15px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    float:right;
+}
+nav ul li{
+    display: inline-block;
+    height: 28px;
+    border-radius: 50px;
+}
+nav ul li:hover{
+    background-color: #fff;
+    transition: 1s ease;
+}
+nav ul li a,
+nav ul li a:hover{
+    color:#fff;
+    margin: 0;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav ul li a:hover{
+    color: #333;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo h3{
+    font-size: 35px;
+    text-transform: capitalize;
+    padding: 5px;
+    color: #fff;
+}
+.menu-bar{
+    position: absolute;top:20px;right: 30px;
+}
+
+.search-tutor{
+    border:0.6px solid rgba(0,0,0,0.2);
+}
+/*
+===========================================
+                Search Tutor
+===========================================
+*/
+
+.title{
+    padding-top: 15px;
+    padding-left: 20px;
+    border-bottom: 0.3px solid rgba(0,0,0,0.8);
+    background-color: #F7F7F7;
+}
+
+.title h3{
+    font-weight: 350;
+    color: #000;
+}
+.chosen-container {
+    margin-top: 8px;
+    width: 100%;
+}
+.chosen{
+    width: 100%;
+}
+
+.chosen-container-single .chosen-single {
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 0;
+    border:0.3px solid rgba(0,0,0,0.1);
+}
+.chosen-container-single .chosen-single div b {
+    margin-top: 5px;
+}
+.button{
+    width: 100%;
+    background-color: #AE5EAA;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+/*
+===========================================
+                Featured Tutor
+===========================================
+*/
+p.text-left.name{
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #000;
+}
+p.text-left.varsity{
+    margin-bottom: 0;
+    color: #333;
+}
+big.text-left.graduation{
+    color: #38C172;
+}
+table tr{
+    background-color: #fff;
+}
+table tr:hover{
+    background-color: #F5F5F5;
+    transition: 0.3s ease;
+}
+
+/*
+===========================================
+                Log In
+===========================================
+*/
+.login-box{
+    border:0.6px solid rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+.login-btn{
+    background-color: #6C2A8C;
+    border-radius: 0;
+    color: #fff;
+}
+
+/*
+===========================================
+                Curse
+===========================================
+*/
+#curse-box{
+    border:1px solid rgba(0,0,0,0.2);
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.popularity{
+    top:10px;
+    left:0;
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    clip-path:polygon(0 0, 88% 0,100% 50%,88% 100%,0 100%);
+}
+
+/*
+===========================================
+                Student Review
+===========================================
+*/
+
+#student-review-item-right-1{
+    height: 400px;
+}
+.student-image{
+    clip-path: polygon(3% 0,100% 0,100% 100%,30% 100%);
+}
+#student-review-item-outer{
+    height: 400px;
+    display: table;
+}
+#student-review-item-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.responsive-student-image{
+    display: none;
+    margin-bottom: 15px;
+}
+#popular-curses img{
+    width: 100%;
+}
+
+/*
+===========================================
+                Progress
+===========================================
+*/
+#progress-counter{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#progress-item-icon{
+    color: #38C172;
+}
+#progress-number{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+#progress{
+    background-image: url("../images/progress-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#progress-item{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+/*
+===========================================
+                Contact Form
+===========================================
+*/
+#contact-about{
+    border: 2px solid rgba(0,0,0,0.4);
+}
+address#address{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+address#address span{
+    padding-left: 10px;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: #E5E5E5;
+}
+.btn{
+    border-radius: 0;
+}
+#map{
+    margin-top: 80px;
+}
+
+
+
+
+/*
+===========================================
+                Curse Catagory
+===========================================
+*/
+#catagory-items{
+    position: relative;
+}
+#catagory-tiems-toggle{
+    position: absolute;
+    top:10px;
+    right: 5px;
+    cursor: pointer;
+}
+#catagory-items ul{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(0,0,0,0.04);
+    margin:auto;
+}
+#catagory-items ul li{
+     display: inline-block;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#catagory-items ul li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+/*
+====================================================
+                    Contact
+====================================================
+/*===========================================
+                Footer
+===========================================
+*/
+
+#main-footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #6C2A8C;
+    text-align: center;
+    color: #fff;
+}
+#main-footer ul{
+    list-style-type: none;
+    text-transform:uppercase;
+    border-right: 0.5px solid #fff;
+}
+#main-footer ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#main-footer ul li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+#footer ul li a{
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#footer ul li a i{
+    color:#fff;
+}
+#footer ul{
+    list-style: none;
+}
+#social-link{
+    background: #0000;
+}
+p.text-center{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:992px){
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        float: left;
+        width: 90%;
+        text-align: center;
+        display: none;
+    }
+    nav ul li{
+        display:block;
+    }
+    small{
+        font-size: 10px;
+        word-spacing: 0.5px;
+    }
+    .responsive-text-center{
+        text-align: center;
+        margin:auto;
+    }
+}
+@media screen and (max-width:767px){
+    #catagory-items #catagory-tiems-toggle{
+        margin-bottom: 50px;
+        background: red;
+    }
+    #catagory-items ul{
+        margin-top: 10px;
+    }
+    #catagory-items ul li{
+        display: block;
+    }
+    
+    #map{
+        margin-top: 0;
+    }
+    #popular-curses small,p,big{
+        margin-left: 13%;
+    }
+    #popular-curses img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .right-side-topbar-1{
+        display: none;
+    }
+    .responsive-student-image{
+        display: block;
+    }
+    #student-review-item-right-1{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .left-side-topbar{
+        font-size: 10px;
+    }
+    .right-side-topbar{
+        float: right;
+    }
+    .right-side-topbar-2 a{
+        padding-left: 0;
+    }
+    .right-side-topbar-2 i{
+        padding-right: 3px;
+    }
+}
+@media screen  and (max-width:420px){
+    #curse-box p{
+        font-size: 10px;
+    }
+}

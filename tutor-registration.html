@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tutor Sheba</title><!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!-- /.bootstrap cdn -->
+    <!-- Css Chosen CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"><!-- /.Css Chosen CSS -->
+    <!-- Animated css -->
+    <link rel="stylesheet" href="css/animate.css"><!-- Animated css -->
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css"><!-- /.owl carousel -->
+    <!-- select2 css -->
+    <link rel="stylesheet" href="css/select2.min.css"><!-- /.select2 css -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tutor-registration.css"><!-- Custom css -->
+    <style>
+        .select2-selection {
+            overflow: hidden;
+        }
+
+        .select2-selection__rendered {
+            white-space: normal;
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- topbar -->
+        <div class="container-fluid top-header-color">
+            <div class="container">
+                <div class="topbar">
+                    <div class="left-side-topbar"><i class="fas fa-phone-square-alt"></i><small>+8801753703144</small></div>
+                    <div class="right-side-topbar">
+                        <div class="right-side-topbar-1">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-viber"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="right-side-topbar-2"><a href="#" class="btn custom-btn login" role="button"><i class="fas fa-lock"></i>login</a><a href="#" class="btn custom-btn sign-up" role="button"><i class="fas fa-sign-out-alt"></i>registar as tutor</a></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.topbar -->
+        <!-- Header Menu -->
+        <div class="header" style="position: relative;">
+            <div class="container-fluid menu-header-color">
+                <div class="container">
+                    <div class="logo">
+                        <h3>logo</h3>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <ul class="menu-list">
+                                
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="premium-tutor.html">Our Teacher</a></li>
+                                <li><a href="tutor-details.html">Details</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="tutor-list.html">Tutor list</a></li>
+                                <li><a href="tutor-registration.html">Registration</a></li>
+                            </ul>
+                        </nav>
+                        <div>
+                            <div class="menu-bar"><i class="fas fa-bars d-md-none text-light"></i><i class="fas fa-times"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.Header Menu -->
+    </div><!-- /.header -->
+    <!-- Teacher Registration -->
+    <div class="container">
+        <!-- header title -->
+        <!-- Generic Title -->
+        <div class="generic-title mt-5">
+            <h5 class="wow zoomIn" data-wow-delay=".5s" data-wow-duration="1s">FEATURED TUTORS</h5>
+            <div class="generic-title-underline"></div>
+        </div><!-- /Generic Title -->
+        <div class="row">
+            <div class="col-md-8">
+                <!-- /.header title -->
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                        <!-- registration form -->
+                        <div class="registration-form wow zoomIn" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="registration-form__title tutuor-request">
+                                <h4 class="text-center pt-3 pb-2 text-uppercase">request a tutor</h4>
+                            </div>
+                            <div class="registration-form__content">
+                                <div class="container">
+                                    <div action="post">
+                                        <!-- title --><label for="title" class="mt-3 mb-3">Title*</label><input type="text" name="title" id="title" class="form-control" placeholder="Ex: you need to student in Dhaka"><!-- /title -->
+                                        <!-- name --><label for="name" class="mt-2 mb-2">Name*</label><input type="text" name="name" id="name" class="form-control bg-light" placeholder="Enter Name"><!-- /name -->
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <!-- student gender --><label for="student-gender" class="mt-2 mb-2">Select Student Gender*</label><select class="form-control bg-light" name="student-gender" id="student-gender">
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                </select></div>
+                                            <div class="col-md-6"><label for="institute" class="mt-2 mb-2">Institute</label><input type="text" name="institute" id="institute" placeholder="Enter institude" class="bg-light form-control"></div>
+                                        </div><!-- Phone Number --><label for="phone-number" class="mt-2 mb-2">Enter Phone Number*</label><input type="text" name="phone-number" id="phone-number" class="form-control bg-light" placeholder="Enter Phone Number"><!-- /Phone Number -->
+                                        <!-- Subject --><label for="Subject" class="mt-2 mb-2">Select Subject*</label><select name="subject" id="Subject" class="form-control bg-light">
+                                            <option value="bangla">Bangla</option>
+                                            <option value="english">English</option>
+                                            <option value="Math">Math</option>
+                                            <option value="biology">Biology</option>
+                                            <option value="social-science">Social Science</option>
+                                            <option value="economics">Economics</option>
+                                            <option value="bangla">Bangla</option>
+                                        </select><!-- Subject -->
+                                        <!-- Education -->
+                                        <div class="row">
+                                            <div class="col-md-3 mt-3 mb-3"><big> Education </big></div>
+                                            <div class="col-md-9"><select value="education" class="form-control bg-light mt-3 mb-3">
+                                                    <option value="ssc">SSC</option>
+                                                    <option value="ssc">HSC</option>
+                                                    <option value="ssc">HONS</option>
+                                                    <option value="ssc">BBA</option>
+                                                    <option value="ssc">MBA</option>
+                                                    <option value="ssc">PHD</option>
+                                                </select></div>
+                                        </div><!-- /.Education -->
+                                        <!-- Education -->
+                                        <div class="row">
+                                            <div class="col-md-3 mt-3 mb-3"><big> Gander </big></div>
+                                            <div class="col-md-9"><select value="education" class="form-control bg-light mt-3 mb-3">
+                                                    <option value="ssc">Male</option>
+                                                    <option value="ssc">Female</option>
+                                                </select></div>
+                                        </div><!-- /.Education -->
+                                        <!-- days -->
+                                        <div class="row">
+                                            <div class="col-md-6"><label for="work-duration" class="mt-3 mb-3">Work Per Week :</label><input class="bg-light form-control" type="number" name="work-duration" id="work-duration"></div>
+                                            <div class="col-md-6"><label for="days-duration" class="mt-3 mb-3">Days Per Week :</label><input class="form-control bg-light" type="number" name="days-duration" id="days-duration"></div>
+                                        </div><label for="other-information">Other information :</label><textarea class="form-control custom-textarea" name="other-information" id="other-information" cols="30" rows="5"></textarea><!-- /.days -->
+                                        </form><a href="#" class="btn text-light text-center d-block mt-5 mb-3 pt-2 pb-2 sign-up" style="font-size: 25px;">Sign-up</a>
+                                    </div>
+                                </div>
+                            </div><!-- /registration form -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="col-md-4">
+                <!-- teacher count-box -->
+                <div class="mt-5 terms wow zoomIn" data-wow-delay="0.5s">
+                    <h4 class="title text-light border-0 condition text-center pb-3">Terms And Condition</h4>
+                    <div class="container">
+                        <p class="pt-4 pb-4 tearms-content text-justify text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eaque ratione animi doloribus repellendus ad voluptatem eius? Porro, quis rerum. Sequi aliquam explicabo, id pariatur tenetur omnis ad harum a eveniet, rem velit nemo consequuntur libero consequatur accusantium dolorum fugiat animi aperiam eligendi, neque quae necessitatibus? Fugiat reprehenderit placeat corrupti, doloribus magni illum, iusto ipsa voluptatum necessitatibus nesciunt accusantium nostrum molestias ipsam eos quae fuga omnis deserunt cum fugit voluptas at porro vero distinctio aperiam. Commodi ducimus aspernatur ea quam.</p>
+                    </div><a href="#" class="btn condition text-light details mt-3 mb-3 d-block">Details</a>
+                </div><!-- /.teacher count-box -->
+            </div>
+        </div><!-- /.Teacher Registration -->
+    </div><!-- footer -->
+    <section id="footer">
+        <div id="main-footer">
+            <div id="footer-parts">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div id="left-side-footer">
+                                    <h3 class="mb-2">First Footer</h4>
+                                        <div class="generic-title-underline bg-light mx-auto"></div>
+                                        <ul class="border-0">
+                                            <li><a href="#">Our First Footer</a></li>
+                                            <li><a href="#">Our Second Footer</a></li>
+                                            <li><a href="#">Our Third Footer</a></li>
+                                            <li><a href="#">Our Forth Footer</a></li>
+                                            <li><a href="#">Our Fifth Footer</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div id="middle-side-footer">
+                                    <h3 class="mb-2">Second Footer</h4>
+                                        <div class="generic-title-underline bg-light mx-auto"></div>
+                                        <ul class="border-0">
+                                            <li><a href="#">Our First Footer</a></li>
+                                            <li><a href="#">Our Second Footer</a></li>
+                                            <li><a href="#">Our Third Footer</a></li>
+                                            <li><a href="#">Our Forth Footer</a></li>
+                                            <li><a href="#">Our Fifth Footer</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div id="middle-side-footer">
+                                    <h3 class="mb-2">Third Footer</h4>
+                                        <div class="generic-title-underline bg-light mx-auto"></div>
+                                        <ul class="border-0">
+                                            <li><a href="#">Our First Footer</a></li>
+                                            <li><a href="#">Our Second Footer</a></li>
+                                            <li><a href="#">Our Third Footer</a></li>
+                                            <li><a href="#">Our Forth Footer</a></li>
+                                            <li><a href="#">Our Fifth Footer</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="container-fluid" id="social-link">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div id="social-icons">
+                            <ul class="border-right-0">
+                                <li class="pt-3"><a href="#"><i class="fab fa-facebook fa-2x"></i></a><a href="#"><i class="fab fa-twitter fa-2x"></i></a><a href="#"><i class="fab fa-instagram fa-2x"></i></a><a href="#"><i class="fab fa-youtube fa-2x"></i></a><a href="#"><i class="fab fa-viber fa-2x"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <p class="text-center text-white">copyright all right recive &copy; 2020-2021<p>
+                                <p class="text-center text-white">Designed by MD Hemal Akhad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- footer -->
+    <!-- /.Content -->
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><!-- /.bootstrap js cdn -->
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/8fdc8cb764.js" crossorigin="anonymous"></script><!-- /.Font Awesome CDN -->
+    <!-- Google Jquary CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.15.0/d3.min.js"></script><!-- /.Google Jquary CDN -->
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script><!-- /.Wow JS -->
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script><!-- /.owl carousel js -->
+    <!-- Ciramotia plugin for animated number -->
+    <script src="js/jquery.counterup.min.js"></script><!-- /.Ciramotia plugin for animated number -->
+    <!-- Waypoints plugin -->
+    <script src="js/jquery.waypoints.min.js"></script><!-- /.Waypoints plugin -->
+    <!-- Mix it up plugin -->
+    <script src="js/mixitup.min.js"></script><!-- Mix it up plugin -->
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script><!-- /.Custom JS -->
+    <!-- select2 js cdn -->
+    <script src="js/select2.min.js"></script><!-- /.select2 js cdn -->
+    <script>
+        /* $(document).ready(function() { $(".select2").select2(); }); */
+        $(document).ready(function() {
+            $('.first').select2({
+                width: '100%',
+            });
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.tutor-job-box{
+    border:2px solid rgba(0,0,0,0.2);
+}
+.tutor-job-box .tutor-job-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.tutor-job-box span.span-style{
+    color: #6C2A8C;
+    font-weight: 700;
+}
+.apply{
+    background-color: #6C2A8C;
+    color: #fff;
+    padding:4px 15px;
+}
+.tutor-catagory-filter{
+    color: #222;
+}
+.apply i{
+    padding-right: 2px;
+}
+small.salary,span.tutoring-time,span.subject,span.location{
+    font-weight: 500;
+    line-height: 25px;
+}
+.teacher-filter{
+    border: 2px solid rgba(0,0,0,0.2);
+}
+.teacher-filter>a.details{
+    background-color: #6C2A8C;
+    color:#fff;
+}
+.teacher-filter>.catagory-filter{
+    background-color: #6C2A8C;
+    color: #fff;
+}

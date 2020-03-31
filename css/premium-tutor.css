@@ -1,0 +1,47 @@
+.premium-teacher-box{
+    border:2px solid rgba(0,0,0,0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.premium-teacher-box:hover{
+    box-shadow: 5px 5px 35px rgba(0,0,0,0.06);
+    transition: .5s;
+    transition-timing-function: ease-out;
+}
+.premium-teacher-box img{
+    display: block;
+    margin: auto;
+}
+h4.teacher-name{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h5.teacher-education{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p.experience{
+    font-weight: 650;
+}
+.premium-teacher-content{
+    padding-top: 15px;
+}
+a.details,a.contact{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+strong{
+    text-transform: uppercase;
+    font-weight: 650;
+}
+.teacher-count{
+    border:2px solid rgba(0,0,0,0.05)
+}
+.teacher-count:hover{
+    box-shadow: 5px 5px 35px rgba(0,0,0,0.06);
+    transition: .5s;
+}

@@ -1,0 +1,49 @@
+.edu-qualification-title{
+    background-color: #6C2A8C;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+#educational-qualification{
+    border:2px solid rgba(0,0,0,0.08);
+    margin-top: 10px;
+}
+.box--header th,.box--header td{
+    margin-top: 30px;
+}
+.tutor-info{
+    border:2px solid rgba(0,0,0,0.08);
+}
+.tutor-info tr{
+    border-bottom: 2px solid rgba(0,0,0,0.08);
+}
+.tution-info-title,.edu-qualification-title{
+    background-color: #6C2A8C;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#edu-qualification table tr{
+    border-bottom: 2px solid rgba(0,0,0,0.08);
+}
+#edu-qualification table tr th,#edu-qualification table tr td{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:768px){
+    #edu-qualification table tr th,#edu-qualification table tr td{
+        font-size: 11.5px;
+        width: 22%;
+    }
+}

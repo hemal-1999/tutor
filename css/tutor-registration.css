@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+======================================
+        Registration Form
+======================================
+*/
+.registration-form{
+    border:2px solid rgba(0,0,0,0.08);
+}
+.registration-form__title{
+    border-bottom: 2px solid rgba(0,0,0,0.08);
+}
+/* Title */
+#title{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tutuor-request{
+    background-color: #6C2A8C;
+    color: #fff;
+}
+.custom-textarea{
+    background-color: #E8F0FE;
+}
+.sign-up,.condition{
+    background-color: #6C2A8C;
+}
+i{
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.terms{
+    border:2px solid rgba(0,0,0,0.08);
+}
+.tearms-content{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+.edu-qualification--box .container>table tr{
+    background-color: transparent;
+}
+p.pt-4.pb-4.tearms-content.text-justify.text-capitalize{
+    margin: 0;
+}
+big{
+    margin-left: 0;
+}
+ul{
+    list-style: none;
+}
+.tutor-profile__middle--Details{
+    border:2px solid rgba(0,0,0,0.08);
+    margin-top: 15px;
+}
+.col-md-5.tutor-profile__middle .tutor-profile__middle--Details>.generic-title{
+    background-color: #6C2A8C;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+}
+.col-md-5.tutor-profile__middle>.generic-title h5{
+    margin-top: 5px;
+}
+.text-justify{
+    font-weight: 450;
+    text-transform: capitalize;
+    color: #333;
+}
+.tutor-profile__middle--edu-qualification .edu-qualification--box{
+    border:2px solid rgba(0,0,0,0.08);
+}
+.tutor-profile__middle--edu-qualification .edu-qualification--box .edu-qualification--box-title{
+    background-color: #6C2A8C;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.tutor-profile__middle--experience{
+    border:2px solid rgba(0,0,0,0.08);
+    padding-bottom: 5px;
+}
+.tutor-profile__middle--experience h5{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #6C2A8C;
+}
+.tutor-profile__left--extra-facility{
+    border:2px solid rgba(0,0,0,0.08);
+}
+.tutor-profile__left--extra-facility .extra-facility--title{
+    background-color: #6C2A8C;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #Fff;
+}
+
+@media screen and (max-width:991px){
+    div.col-md-5.tutor-profile__middle{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:767px){
+    div.col-md-5.tutor-profile__middle{
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
